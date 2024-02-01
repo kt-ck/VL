@@ -17,7 +17,7 @@ import { selectUserInfo } from "@/features/roleFeature/roleFeature";
 
 const title = ["Overview", "My Profile", "My Orders", "My Wishlist"];
 const useStyles = createStyles((theme) => ({}));
-function acount() {
+function Account() {
   const [activeIndex, setActiveIndex] = useState(0);
   const info = useAppSelector(selectUserInfo);
 
@@ -117,4 +117,4 @@ function acount() {
   );
 }
 
-export default acount;
+export default Account;
